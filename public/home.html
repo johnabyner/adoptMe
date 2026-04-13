@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Cachorros Coitadinhos</title>
+</head>
+<body>
+    <button class="buttonDogs">List the Dogs</button>
+    <button class="createDogs">Create a Dog</button>
+
+    <form action="/dogs" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+
+        <label for="name">Race</label>
+        <input type="text" name="name">
+
+        <label for="name">Color</label>
+        <input type="text" name="name">
+
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="showDogs"></div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
