@@ -7,7 +7,7 @@ import { useDraggable } from "@dnd-kit/core";
 //INTERFACE
 import type { Dog } from "../interfaces/Dog.interface";
 
-interface DogCardProps {
+interface DogCardProps { 
   dog: Dog;
 }
 
@@ -34,3 +34,11 @@ function DogCard({ dog }: DogCardProps) {
 }
 
 export default DogCard;
+
+// nome da raça e idade;
+// botões de like/dislike; e configuraçoes
+
+//configuraçoes ia mostrar mais detalhes
+//peso
+//altura
+//e descricao, deixando a tela atras em opacidade baixa
