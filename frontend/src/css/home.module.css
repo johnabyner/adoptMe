@@ -1,3 +1,7 @@
+body{
+    margin: 0%;
+}
+
 .container{
     display:flex;
     flex-direction:column;
@@ -15,4 +19,26 @@
     align-items:center;
 
     width:100%;
+}
+
+
+
+.left {
+    background: linear-gradient(
+        to left,
+        #f5f5f5 65%,
+        rgba(134, 9, 9, 0.753) 100%
+    );
+
+    transition: background 0.5s ease;
+}
+
+.right {
+    background: linear-gradient(
+        to right,
+        #f5f5f5 65%,
+        rgba(22, 104, 8, 0.78) 100%
+    );
+
+    transition: background 0.5s ease;
 }

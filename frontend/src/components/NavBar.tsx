@@ -3,14 +3,17 @@ import styles from "../css/navBar.module.css"
 
 function NavBar(){
     return(<>
-        <nav>
-            <div className={styles.navBrand}>
+        <nav className={styles.navBar}>
+            <div className={styles.leftBar}>
                 <Link to="/">AdoptMe</Link>
             </div>
-            <div className={styles.navbarLinks}>
-                <Link to="/" className={styles.navLink}>Home</Link>
-                <Link to="/favorites" className={styles.navLink}>Favorites</Link>
-                <Link to="/profile" className={styles.navLink}>Profile</Link>
+
+            <div className={styles.middleBar}>
+                <Link to="/favorites">Favorites</Link>
+            </div>
+
+            <div className={styles.rightBar}>
+                <Link to="/profile">Profile</Link>
             </div>
         </nav>
     </>)

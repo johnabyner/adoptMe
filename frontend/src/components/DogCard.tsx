@@ -35,10 +35,11 @@ function DogCard({ dog }: DogCardProps) {
 
 export default DogCard;
 
-// nome da raça e idade;
-// botões de like/dislike; e configuraçoes
+//embaixo
+//x chat coraçao
 
-//configuraçoes ia mostrar mais detalhes
-//peso
-//altura
-//e descricao, deixando a tela atras em opacidade baixa
+//do lado
+// nome da raça e idade;
+//distancia
+//peso altura
+//descrição

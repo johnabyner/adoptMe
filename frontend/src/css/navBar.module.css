@@ -1,11 +1,24 @@
-.navBrand{
 
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+
+    font-size: 1.6em;
+    text-align: center;
+
+    background-color: rgba(3, 7, 214, 0.661);
 }
 
-.navbarLinks{
-
+.navBar a{
+    color: black;
+    text-decoration: none;
 }
 
-.navBarLink{
-    
+.leftBar, .middleBar, .rightBar{
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
 }

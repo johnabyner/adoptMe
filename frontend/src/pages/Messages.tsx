@@ -1,8 +1,7 @@
-function Profile(){
+function Messages(){
     return(<>
         <h1>WIP</h1>
-
     </>)
 }   
 
-export default Profile;
+export default Messages;
